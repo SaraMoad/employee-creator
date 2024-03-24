@@ -1,27 +1,32 @@
-# Employee Creation
+# Employee Creation Front-End
 
-{add test badges here, all projects you build from here on out will have tests, therefore you should have github workflow badges at the top of your repositories: [Github Workflow Badges](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge)}
 
 ## Demo & Snippets
+Connected to Employee-creator backend which uses springboot and Java.
+Github: 
 
-- Include hosted link
-- Include images of app if CLI or Client App
 
 ---
 
 ## Requirements / Purpose
+The front-end should provide a list of employees, and have the ability to add, edit and delete employees from the list. 
 
-- MVP
-- purpose of project
-- stack used and why
-
+#### Front end Stack
+Vite with react-ts
+SCSS 
+React Query for API calls
+React Form Hook + validation
+Axios
+React Router 
+React Redux
+React Testing Library
 ---
 
 ## Build Steps
-
-- how to build / run project
-- use proper code snippets if there are any commands to run
-
+- cd client
+- npm install
+- npm run dev
+- npm run build.
 ---
 
 ## Design Goals / Approach
@@ -32,50 +37,42 @@
 ---
 
 ## Features
-
-- What features does the project have?
-- list them...
+A single page application
+- A list of employees
+- an Add employee form 
+- edit button that brings up a form with the employee details
+- services to connect to the database on the back end. 
+- a remove button that removes the employee,
+- a toast notfication informing the user when they have been successful. 
 
 ---
 
 ## Known issues
 
-- Remaining bugs, things that have been left unfixed
-- Features that are buggy / flimsy
-
 ---
 
 ## Future Goals
-
-- What are the immediate features you'd add given more time
+- Include login and authorisation to be a be able to delete an employee.
+- are an Are you sure? pop up when you press to delete the employee.
+- if not authro
 
 ---
 
 ## Change logs
+19/03/2024
+- creation of front-end with Vite react-ts
 
-- Write a paragraph labelled with the date every day you work on the project to discuss what you've done for the say. Be specific about the changes that have happened for that day.
 
-### 13/02/2022 - {Theme of changes if applicable}
-
-- Extended the expiry time of JWT tokens on the backend
-- Added users to cohort response payload
-- Centralized API base URL on frontend using the proxy `package.json` property
 
 ---
 
 ## What did you struggle with?
 
-- What? Why? How?
 
 ---
 
-## Licensing Details
-
-- What type of license are you releasing this under?
 
 ---
 
 ## Further details, related projects, reimplementations
 
-- Is this project a reimplementation for something you've done in the past? if so explain it and link it here.
-- If it's an API, is there a client app that works with this project? link it
