@@ -1,0 +1,75 @@
+
+ .toastContent {
+     width:100%; 
+     border: solid 2px white; 
+     border-radius: 5px;
+     color:black;
+     padding:2px; 
+     display: flex; 
+     justify-content: space-between; 
+     align-items: center; 
+    background-color: white;
+    font-size: 12px;
+    }
+
+ .success {
+     background-color: rgb(109, 189, 109);
+     border: solid 2px rgb(109, 189, 109);
+ }
+
+ .error {
+     background-color: rgb(228, 78, 78);
+     color: white;
+    border: solid 2px rgb(228, 78, 78);
+ }
+ 
+.toastBox {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.toastClose {
+    
+    padding-top: 1px;
+    pointer-events: auto;
+    &:hover {
+        cursor: pointer;
+        transition: all;
+    }   
+}
+
+.toastWrapper {
+    position: fixed;
+    z-index:10;
+    inset: 0;
+    height:auto;
+    width: 10%;
+    display: flex;
+    justify-self: end;
+    align-items:end;
+    padding:4px;
+    margin: 0px;
+    margin-right: 25px;
+}
+
+.button {
+    display: flex;
+    background: none;
+    border: none;
+    justify-content: end;
+    padding: 0px;
+    margin: 3px;
+    
+}
+
+.icon {
+    color: rgb(107 114 128);
+    width: 20px;
+    height: 20px;
+
+    &:hover {
+        color: rgb(96, 100, 110);
+    }
+}

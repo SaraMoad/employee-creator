@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 7px;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 5px;
+}
+
+.button {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 5px;
+        padding: 4px;
+        color: white;
+        font-size: 14px;
+        background-color: rgb(166, 106, 223);
+}
+
+.button__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
